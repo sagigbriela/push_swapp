@@ -6,7 +6,7 @@
 #    By: mpirela- <mpirela-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/04 18:48:43 by mpirela-          #+#    #+#              #
-#    Updated: 2024/05/09 15:07:21 by mpirela-         ###   ########.fr        #
+#    Updated: 2024/05/17 14:28:10 by mpirela-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ LIBFTDIR = ./libft
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-SRCS = ./push_swap.c ./check_and_convert.c \ order_with.c
+SRCS = ./push_swap.c ./check_and_convert.c order_with.c
 
 OBJS = $(SRCS:.c=.o)
 
